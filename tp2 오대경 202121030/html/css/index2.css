@@ -1,0 +1,70 @@
+body {
+  font-family: '명조체', serif;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.5;
+}
+
+#logo {
+  line-height: 60px;
+  padding-left: 30px;
+}
+#logo img {
+  vertical-align: middle;
+}
+
+#navbar {
+  background-color: white;
+  display: block;
+  height: 60px;
+  border-radius: 5px;
+}
+#navbar p {
+  display: inline;
+  float: right;
+  margin: 0 50px;
+  line-height: 60px;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+.intro h1 {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  height: 100%;
+  border-radius: 10pt;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.help {
+  display: inline-block;
+  height: 30%;
+  vertical-align: middle;
+}
+.icon {
+  width: 240px;
+  background-color: #eeeeee;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 10pt;
+}
+.icon ul {
+  margin: 0;
+  padding: 0;
+}
+.icon ul li {
+  list-style: none;
+  float: left;
+  flex-direction: column;
+  padding: 10px;
+}
+.clearfix {
+  clear: both;
+}

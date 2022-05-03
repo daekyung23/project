@@ -1,31 +1,52 @@
 <html>
   <head>
-    <title>개인 홈페이지</title>
+    <title>방문자 등록</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <div id="navbar">
-      <a id="logo" href="./index.html" target="_self">
-        <img src="../images/home.png" width="40px">
-      </a>
-      <p><b>My HomePage</b></p>
+    <div id="bar">
+      <h2><b>Visitor Register</b></h2>
     </div>
-    <div class="clearfix"></div>
-    <div class="intro">
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <h1>Welcome to my homePage!<br><br>I Hope you enjoy it.<br></h1>
-    </div>
-    <div class="container">
-      <div class="help"></div>
-      <div class="icon">
-        <ul>
-          <li><a href="./Introduce.html" target="_self"><img src="../images/introduce.png" width="40px"></a></li>
-          <li><a href="./Hobby.html" target="_self"><img src="../images/hobby.png" width="40px"></a></li>
-          <li><a href="./Driving.html" target="_self"><img src="../images/driving.png" width="40px"></a></li>
-          <li><a href="./Study.html" target="_self"><img src="../images/study.png" width="40px"></a></li>
-        </ul>
-      </div>
-    </div>
+    <form action="./index2.html" method="post">
+      <table id="tb" width="600" height="350" border="1" cellpadding="5" align="center">
+        <tr>
+          <td width="150">방 문 자  이 름</td>
+          <td><input type="text" name="name" size="15"></td>
+        </tr>
+        <tr>
+          <td>나 이</td>
+          <td><input type="text" name="age" size="15"></td>
+        </tr>
+        <tr>
+          <td>성 별</td>
+          <td>
+              <input type="radio" name="btn" value="male" checked>남자&nbsp;&nbsp;
+              <input type="radio" name="btn" value="female" checked>여자
+          </td>
+        </tr>
+        <tr>
+          <td>전 화 번 호</td>
+          <td><input type="text" name="num" size="15"></td>
+        </tr>
+        <tr>
+          <td>직 업</td>
+          <td>
+              <select size="1" name="purpose">
+                  <option selected>대학생</option>
+                  <option selected>대학원생</option>
+                  <option selected>교 수</option>
+                  <option selected>무직, 기타 등등</option>
+              </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+              <input type="submit" value="방문하기">&nbsp;&nbsp;
+              <input type="reset" value="취소하기">
+          </td>
+        </tr>
+      </table>
+    </form>
   </body>
 </html>

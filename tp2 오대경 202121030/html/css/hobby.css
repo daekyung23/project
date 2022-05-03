@@ -1,0 +1,103 @@
+body {
+  font-family: '명조체', serif;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.7;
+}
+
+#logo {
+  line-height: 60px;
+  padding-left: 30px;
+}
+#logo img {
+  vertical-align: middle;
+}
+
+#navbar {
+  background-color: white;
+  display: block;
+  height: 60px;
+  border-radius: 5px;
+}
+#navbar ul {
+  float: right;
+  margin: 0;
+}
+#navbar ul li {
+  float: left;
+  list-style: none;
+  padding: 0 10px;
+  flex-direction: column;
+  line-height: 60px;
+  margin: 0;
+}
+#navbar ul li:last-child {
+  margin-right: 30px;
+}
+#navbar ul li:hover {
+  background-color: #eeeeee;
+}
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 600px;
+  height: 750px;
+  border-bottom-left-radius: 10pt;
+  border-bottom-right-radius: 10pt;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 100px;
+  opacity: 1;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.intro h1 {
+  margin: 60px 0;
+  font: 24px Helvetica;
+  text-align: center;
+  background-color: aliceblue;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  margin-bottom: 0;
+  height: 50px;
+  line-height: 40px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 10pt;
+  border-top-right-radius: 10pt;
+}
+
+#list {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 25px;
+  float: left;
+}
+#list a {
+  margin-left: auto;
+  margin-right: auto;
+}
+#list p {
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  font-family: sans-serif;
+  margin-left:15px;
+}
+#list:hover {
+  background-color: #eeeeee;
+}

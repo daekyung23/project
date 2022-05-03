@@ -1,0 +1,97 @@
+body {
+  font-family: '명조체', serif;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.5;
+}
+
+#logo {
+  line-height: 60px;
+  padding-left: 30px;
+}
+#logo img {
+  vertical-align: middle;
+}
+
+#navbar {
+  background-color: white;
+  display: block;
+  height: 60px;
+  border-radius: 5px;
+}
+#navbar ul {
+  float: right;
+  margin: 0;
+}
+#navbar ul li {
+  float: left;
+  list-style: none;
+  padding: 0 10px;
+  flex-direction: column;
+  line-height: 60px;
+  margin: 0;
+}
+#navbar ul li:last-child {
+  margin-right: 30px;
+}
+#navbar ul li:hover {
+  background-color: #eeeeee;
+}
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#name h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: white;
+  text-align: center;
+}
+
+.container h3 {
+  margin-top: 50px;
+  margin-left: 20px;
+  color: white;
+}
+
+#hr {
+  height: 10px;
+  background-color: aliceblue;
+}
+
+.machine p {
+  color: white;
+  margin-top: 20px;
+  margin-left: 60px;
+  line-height: 40px;
+}
+
+#page {
+  margin-top: 50px;
+  width: 120px;
+  margin-left:auto;
+  margin-right: auto;
+}
+#page ul {
+  padding: 0;
+  text-align: center;
+}
+#page ul li {
+  flex-direction: column;
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#page a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
